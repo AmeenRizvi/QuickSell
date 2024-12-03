@@ -1,0 +1,33 @@
+.display-selector {
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    padding: 16px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin-bottom: 16px;
+  }
+  
+  .display-selector label {
+    font-size: 0.875rem;
+    color: #5e6c84;
+  }
+  
+  .display-selector select {
+    margin-left: 8px;
+    padding: 4px 8px;
+    font-size: 0.875rem;
+    border: 1px solid #dfe1e6;
+    border-radius: 4px;
+    background-color: #ffffff;
+    color: #333;
+    cursor: pointer;
+  }
+  
+  .display-selector select:focus {
+    outline: none;
+    border-color: #0079bf;
+    box-shadow: 0 0 0 2px rgba(0, 123, 191, 0.25);
+  }
+  
